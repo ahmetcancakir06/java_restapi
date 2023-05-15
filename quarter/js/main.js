@@ -1955,7 +1955,7 @@
         -------------------------------------------------------- */
         $('#ltn__newsletter_popup').modal('show');
 
-
+        emlaksec();
 
 
     });
@@ -1987,6 +1987,10 @@
 
     });
 
+    function emlaksec(){
+        $('#emlak_sec').text('Emlak Ekle');
+        $('#emlak_sec').attr('href','add-listing.html');
+    }
 
   
 })(jQuery);
